@@ -1,0 +1,148 @@
+body,
+h1,
+h2,
+p,
+ul,
+li,
+form,
+input,
+textarea,
+a {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-size: 18px;
+}
+
+body {
+  background-color: #ed856e;
+  color: #090909;
+  line-height: 1.7;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #141414;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #141313;
+}
+
+p,
+input,
+textarea {
+  margin-bottom: 20px;
+}
+
+
+small.author {
+  display: block;
+  /* margin-bottom: 0px;  */
+  color: #0a0909;
+}
+
+small.date {
+  display: block;
+  margin-bottom: 15px; 
+  color: #0a0909;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1em;
+  outline: none;
+  
+}
+
+input:focus,
+textarea:focus {
+  border-color:rgb(192, 124, 192);
+}
+
+a,
+button {
+  text-decoration: none;
+  background-color: #9370DB;
+  color: #fff;
+  padding: 10px;
+  font-size: 1em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button.full-width {
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+a,
+button:hover {
+  background-color: #a48ed2;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+a.edit {
+  background-color:  #008080;
+  margin-right: 10px;
+
+ 
+}
+
+a.delete {
+  background-color: rgb(179, 52, 52);
+  margin-left: 10px;
+  
+}
+
+a.delete:hover {
+  background-color: #f52c15;
+}
+
+#newPostBtn {
+  margin: 20px 0;
+  background-color:  #008000;
+  padding: 10px 15px;
+  font-size: 1em;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.4s;
+  border: none;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+
+#newPostBtn:hover {
+  background-color: #5bcf8b;
+}
