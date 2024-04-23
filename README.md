@@ -1,8 +1,8 @@
-# Name 
-My Own API 
+ 
+# My Own API 
 
 # Description
-This project is a Blog website created with CSS for design, Express.js, EJS templating, and JavaScript.The JavaScript library "axios" is used to make HTTP requests from the browser. 
+This project is a Blog website created with CSS for design, Express.js, EJS templating, and JavaScript. The JavaScript library "axios" is used to make HTTP requests from the browser. 
 There are two servers: one listens on port 3000 for requests, and the other requests via API on port 4000. Both the servers should operate on separate terminals.
 This website makes it easy to create, edit, and delete blog entries.
 
